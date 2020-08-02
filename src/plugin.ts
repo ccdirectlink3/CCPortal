@@ -2,7 +2,7 @@ import { Mirror } from './mirror.js';
 import { Trigger } from './trigger.js';
 import { Portal } from './portal.js';
 
-export default class CCPortal extends Plugin {
+export default class CCPortal {
 	private last = 0;
 	
 	private readonly blue = new Portal('blue');

@@ -1,0 +1,11 @@
+{
+    "id": "ccportal",
+    "version": "1.0.0",
+    "title": {
+        "en_US": "CCPortal: Thinking with portals"
+    },
+    "description": {
+        "en_US": "You monster."
+    },
+    "plugin": "plugin.js"
+}
