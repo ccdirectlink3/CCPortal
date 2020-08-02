@@ -5,8 +5,10 @@
   "main": "dist/plugin.js",
   "scripts": {
     "start": "tsc && npm run copy",
+    "start-win": "tsc && npm run copy-win",
     "watch": "npm run copy && tsc -w",
-    "copy": "cp -r static/* dist/"
+    "copy": "cp -r static/* dist/",
+    "copy-win" : "xcopy /E static dist/"
   },
   "repository": {
     "type": "git",
