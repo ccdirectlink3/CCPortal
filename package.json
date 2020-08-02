@@ -6,7 +6,6 @@
   "scripts": {
     "start": "tsc && npm run copy",
     "watch": "npm run copy && tsc -w",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "copy": "cp -r static/* dist/"
   },
   "repository": {
